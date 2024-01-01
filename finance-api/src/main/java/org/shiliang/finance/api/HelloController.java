@@ -1,0 +1,16 @@
+package org.shiliang.finance.api;
+
+
+import org.shiliang.finance.domain.HelloService;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "hello, this is finance api service";
+    }
+
+}

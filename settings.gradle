@@ -1,0 +1,4 @@
+rootProject.name = 'finance-saas'
+include 'finance-domain'
+include 'finance-api'
+
